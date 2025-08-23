@@ -9,4 +9,4 @@
 4. Run the app.
 
 **Expected Output:**
-![Hello World Screenshot](output.png)
+![Hello World Screenshot](assets/output.png)
