@@ -44,17 +44,7 @@ It features a clean UI, standard arithmetic operations, scientific functions, an
 - Install [Dart](https://dart.dev/get-dart)
 - A device or emulator to run the app
 
-## Project Strucuture
-  flutter_calculator/
-│-- lib/
-│   │-- main.dart        # Entry point
-│   │-- screens/
-│   │   └── calculator_screen.dart  # Calculator UI + logic
-│   │-- widgets/
-│   │   └── calculator_button.dart  # Reusable button widget
-│
-│-- pubspec.yaml         # Dependencies
-│-- README.md            # Project documentation
+<img width="710" height="422" alt="image" src="https://github.com/user-attachments/assets/73fae285-19c2-4027-9e63-e3d59ee01793" />
 
 ## 👨‍💻 Author
 Developed by Maanas Phal
