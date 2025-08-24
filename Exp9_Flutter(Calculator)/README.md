@@ -22,7 +22,8 @@ It features a clean UI, standard arithmetic operations, scientific functions, an
 
 | Basic Mode | Scientific Mode |
 |------------|-----------------|
-| ![Basic](screenshots/calc.png) | ![Scientific](screenshots/scientific.png) |
+| ![Basic](<img width="1571" height="830" alt="image" src="https://github.com/user-attachments/assets/eded0a19-a8fe-4d22-9e0f-2b538fa9fa60" />
+) | ![Scientific](screenshots/scientific.png) |
 
 
 ## Future Enchancement
