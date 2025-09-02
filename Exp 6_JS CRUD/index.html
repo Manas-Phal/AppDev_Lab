@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Notebooks</h2>
+      <ul id="notebookList"></ul>
+      <button id="addNotebookBtn">+ Add Notebook</button>
+    </aside>
+
+    <!-- Main -->
+    <main>
+      <header>
+        <h1 id="activeNotebook">Notes</h1>
+        <button id="themeToggle">🌙</button>
+      </header>
+
+      <section id="notesContainer" class="notes"></section>
+      <button id="addNoteBtn" class="floating">+</button>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="noteModal">
+    <div class="modal-content">
+      <h2 id="modalTitle">New Note</h2>
+      <input type="text" id="noteTitle" placeholder="Title">
+      <textarea id="noteContent" placeholder="Content"></textarea>
+      <div class="actions">
+        <button id="saveNoteBtn">Save</button>
+        <button id="cancelNoteBtn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
