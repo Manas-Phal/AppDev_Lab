@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="72sp"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/decrementButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:backgroundTint="#E53935"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FB8C00"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/incrementButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:backgroundTint="#43A047"
+            android:background="@drawable/rounded_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
