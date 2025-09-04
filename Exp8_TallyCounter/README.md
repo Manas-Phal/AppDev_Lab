@@ -23,6 +23,7 @@ Gradle Plugin Version: 8.9.1
   - Created project with Kotlin support
   - Waited for Gradle to sync and resolved all dependencies
   - Installed API 36 (Android 14) via SDK Manager
+
 2.**✅ UI Design (activity_main.xml)**
   - Used a vertical LinearLayout for base layout
   - Added a TextView to display the counter value
@@ -30,6 +31,7 @@ Gradle Plugin Version: 8.9.1
   - Aligned and spaced buttons using a horizontal LinearLayout
   - Applied color-coded button styles and large font sizes
   - Added margin, padding, and background styling
+
 3. **✅ Logic Implementation (MainActivity.kt)**
    - Connected UI elements via findViewById()
    - Declared counter as an integer variable
