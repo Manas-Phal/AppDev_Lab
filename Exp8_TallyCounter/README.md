@@ -66,18 +66,20 @@ onSaveInstanceState() stores counter value before configuration changes
 onRestoreInstanceState() restores value after screen rotation or activity recreation
 Ensures counter value is persistent and user-friendly
 
-📊 Expected Output
+# 📊 Expected Output
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 12 45_dd283827](https://github.com/user-attachments/assets/5c7fa71e-9528-4ccc-802c-0b64f1a34d8b))
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 15 13_c46d1f32](https://github.com/user-attachments/assets/e09f444a-1c33-4c85-b6c0-a7d8c7efecf7))
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 14 00_9d3c96be](https://github.com/user-attachments/assets/93029c0c-c099-4429-a0e9-276bebae4054))
+![CounterApp](![WhatsApp Image 2025-09-04 at 12 12 45_6202128a](https://github.com/user-attachments/assets/e6f6fb57-de0f-403c-b63a-96696c6b33f1))
 
-Action	Result
-App Launch	Shows 0 in blue
-Tap + Button	Counter increases by 1, turns green
-Tap - Button	Counter decreases by 1, turns red
-Tap Reset Button	Counter resets to 0, turns blue
-Rotate Screen	Counter value stays the same
-Toast Message	Shows action-specific notification
+
+# Action	Result
+- App Launch	Shows 0 in blue
+- Tap + Button	Counter increases by 1, turns green
+- Tap - Button	Counter decreases by 1, turns red
+- Tap Reset Button	Counter resets to 0, turns blue
+- Rotate Screen	Counter value stays the same
+- Toast Message	Shows action-specific notification
 
 ### ✅ Summary of Implemented Concepts
 - Android Studio setup with Kotlin
@@ -86,7 +88,6 @@ Toast Message	Shows action-specific notification
 - State persistence using onSaveInstanceState()
 - Dynamic UI updates using TextView.setTextColor()
 - Toast messages for user feedback
-
 
 # 🧾 Final Notes
 - The app is responsive and handles user interactions gracefully
