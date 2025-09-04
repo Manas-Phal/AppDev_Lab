@@ -19,28 +19,27 @@ Gradle Plugin Version: 8.9.1
 
 ### Steps Followed
 
-1.✅ Project Initialization
-  Created project with Kotlin support
-  Waited for Gradle to sync and resolved all dependencies
-  Installed API 36 (Android 14) via SDK Manager
-  ✅ UI Design (activity_main.xml)
-  Used a vertical LinearLayout for base layout
-  Added a TextView to display the counter value
-  Added three buttons: Increment (+), Decrement (-), Reset
-  Aligned and spaced buttons using a horizontal LinearLayout
-  Applied color-coded button styles and large font sizes
-  Added margin, padding, and background styling
-
-2. ✅ Logic Implementation (MainActivity.kt)
-Connected UI elements via findViewById()
-Declared counter as an integer variable
-Implemented click listeners for:
-Increment Button: Adds 1
-Decrement Button: Subtracts 1
-Reset Button: Sets counter to 0
-Displayed Toast messages for each action
-Used setTextColor() to update counter color dynamically
-Used onSaveInstanceState() and onRestoreInstanceState() to preserve state on rotation
+1.**✅ Project Initialization** 
+  - Created project with Kotlin support
+  - Waited for Gradle to sync and resolved all dependencies
+  - Installed API 36 (Android 14) via SDK Manager
+2.**✅ UI Design (activity_main.xml)**
+  - Used a vertical LinearLayout for base layout
+  - Added a TextView to display the counter value
+  - Added three buttons: Increment (+), Decrement (-), Reset
+  - Aligned and spaced buttons using a horizontal LinearLayout
+  - Applied color-coded button styles and large font sizes
+  - Added margin, padding, and background styling
+3. **✅ Logic Implementation (MainActivity.kt)**
+   - Connected UI elements via findViewById()
+   - Declared counter as an integer variable
+   - Implemented click listeners for:
+   - Increment Button: Adds 1
+  - Decrement Button: Subtracts 1
+  - Reset Button: Sets counter to 0
+  - Displayed Toast messages for each action
+  - Used setTextColor() to update counter color dynamically
+  - Used onSaveInstanceState() and onRestoreInstanceState() to preserve state on rotation
 
 
 ## 🌟 Part 2: Extended Counter App (State, UI, UX)
@@ -69,7 +68,7 @@ Ensures counter value is persistent and user-friendly
 
 📊 Expected Output
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 12 45_dd283827](https://github.com/user-attachments/assets/5c7fa71e-9528-4ccc-802c-0b64f1a34d8b))
-![Counter App ](![c1](https://github.com/user-attachments/assets/46ad8028-906b-423b-8464-6de804ff5d12))
+![Counter App ](![WhatsApp Image 2025-09-04 at 12 15 13_c46d1f32](https://github.com/user-attachments/assets/e09f444a-1c33-4c85-b6c0-a7d8c7efecf7))
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 14 00_9d3c96be](https://github.com/user-attachments/assets/93029c0c-c099-4429-a0e9-276bebae4054))
 
 Action	Result
@@ -81,16 +80,16 @@ Rotate Screen	Counter value stays the same
 Toast Message	Shows action-specific notification
 
 ### ✅ Summary of Implemented Concepts
-Android Studio setup with Kotlin
-UI creation using XML layouts
-Event handling with Kotlin click listeners
-State persistence using onSaveInstanceState()
-Dynamic UI updates using TextView.setTextColor()
-Toast messages for user feedback
+- Android Studio setup with Kotlin
+- UI creation using XML layouts
+- Event handling with Kotlin click listeners
+- State persistence using onSaveInstanceState()
+- Dynamic UI updates using TextView.setTextColor()
+- Toast messages for user feedback
 
 
 # 🧾 Final Notes
-The app is responsive and handles user interactions gracefully
-State persistence ensures a better user experience
-The project structure follows good development practices
-Modern UI principles were applied for clarity and usability
+- The app is responsive and handles user interactions gracefully
+- State persistence ensures a better user experience
+- The project structure follows good development practices
+- Modern UI principles were applied for clarity and usability
