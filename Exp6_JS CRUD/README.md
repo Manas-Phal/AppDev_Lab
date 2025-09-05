@@ -1,7 +1,7 @@
 
 ## Experiment on JS CRUD Array
-📘 Description
 
+# 📘 Description
 - This project demonstrates how to perform CRUD operations along with various array manipulation techniques using JavaScript (compatible with TypeScript as well). It is a beginner-friendly example for understanding how to handle arrays dynamically through common use cases like adding, reading, updating, deleting, finding, sorting, and clearing data.
 
 # 🧪 Operations Performed
@@ -35,5 +35,6 @@ Use map() to update all items (e.g., appending a label):
 
 
 ## Screenshots
-![CRUD Array](WhatsApp Image 2025-09-05 at 10 56 03_717d8da6](https://github.com/user-attachments/assets/0bf5439c-ed2b-4102-901e-8ece8a0a0499))
+![Crud Array]![WhatsApp Image 2025-09-05 at 10 56 03_6f3bb0fd](https://github.com/user-attachments/assets/9cc29ad5-d2d0-489a-8370-d161993f3409)
+
 
