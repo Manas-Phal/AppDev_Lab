@@ -45,28 +45,28 @@ Gradle Plugin Version: 8.9.1
 
 
 ## 🌟 Part 2: Extended Counter App (State, UI, UX)
-🚀 Additional Features Implemented
-🔘 Buttons
-Button	Action	Color
-➕ Increment	Increases counter by 1	Green
-➖ Decrement	Decreases counter by 1	Red
-🔄 Reset	Resets counter to 0	Orange
-🎨 Enhanced UI Design
-Counter display with large 64sp bold text
-Color changes based on value:
-Green for positive
-Red for negative
-Blue for zero
-Clean, minimal layout with:
-Rounded buttons
-Proper spacing and elevation
-Light grey background
-Emojis in toast messages for better user feedback
+**🚀 Additional Features Implemented**
+- 🔘 Buttons
+- Button	Action	Color
+- ➕ Increment	Increases counter by 1	Green
+- ➖ Decrement	Decreases counter by 1	Red
+- 🔄 Reset	Resets counter to 0	Orange
+**🎨 Enhanced UI Design**
+- Counter display with large 64sp bold text
+- Color changes based on value:
+- Green for positive
+- Red for negative
+- Blue for zero
+- Clean, minimal layout with:
+- Rounded buttons
+- Proper spacing and elevation
+- Light grey background
+- Emojis in toast messages for better user feedback
 
 # 🔁 State Management
-onSaveInstanceState() stores counter value before configuration changes
-onRestoreInstanceState() restores value after screen rotation or activity recreation
-Ensures counter value is persistent and user-friendly
+- onSaveInstanceState() stores counter value before configuration changes
+- onRestoreInstanceState() restores value after screen rotation or activity recreation
+- Ensures counter value is persistent and user-friendly
 
 # 📊 Expected Output
 ![Counter App ](![WhatsApp Image 2025-09-04 at 12 12 45_dd283827](https://github.com/user-attachments/assets/5c7fa71e-9528-4ccc-802c-0b64f1a34d8b))
