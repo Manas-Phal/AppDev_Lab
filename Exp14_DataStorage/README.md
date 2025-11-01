@@ -29,13 +29,16 @@ Applications developed in this experiment:
 - ListView to display history with delete options.  
 
 ---
+[🎥 Watch demo video](https://github.com/manas-phal/Exp14_DataStorage/raw/main/calculator.mp4)
+
 
 ### 2. To-Do List with SQLite Storage
 **Extended from Experiment 5**
 
 #### Features
 - **Task Persistence:** All tasks stored in SQLite database.  
-- **CRUD Operations:** Create, Read, Update, Delete tasks.  
+- **CRUD Operations:** Create, R
+- ead, Update, Delete tasks.  
 - **Automatic Loading:** Tasks loaded from database on startup.  
 - **Status Management:** Track completion status of tasks.  
 - **Permanent Storage:** Tasks remain after app restart.  
