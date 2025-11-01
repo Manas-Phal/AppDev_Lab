@@ -26,13 +26,11 @@ Applications developed in this experiment:
 #### Key Implementation
 - SQLite helper class for CRUD operations.  
 - Automatic insertion of calculation records.  
-- ListView to display history with delete options.  
+- ListView to display history with delete options.
 
----
 https://raw.githubusercontent.com/manas-phal/AppDev_Lab/main/Exp14_DataStorage/calculator.mp4
 
-
-
+---
 
 ### 2. To-Do List with SQLite Storage
 **Extended from Experiment 5**
