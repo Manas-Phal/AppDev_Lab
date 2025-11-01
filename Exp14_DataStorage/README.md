@@ -29,7 +29,8 @@ Applications developed in this experiment:
 - ListView to display history with delete options.  
 
 ---
-[🎥 Watch demo video](https://raw.githubusercontent.com/manas-phal/Exp14_DataStorage/main/calculator.mp4)
+https://raw.githubusercontent.com/manas-phal/AppDev_Lab/main/Exp14_DataStorage/calculator.mp4
+
 
 
 
