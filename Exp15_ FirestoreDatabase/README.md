@@ -37,9 +37,6 @@ This is a task management app built with **React Native** and **Firebase Firesto
 ![App Screenshot]![WhatsApp Image 2025-09-01 at 16 33 54_73c91fef](https://github.com/user-attachments/assets/280b986d-d6b8-4654-8e3e-91c16072ae21)
 ![App Screenshot]![WhatsApp Image 2025-09-01 at 16 39 12_b7fbfb46](https://github.com/user-attachments/assets/afa134c0-a263-42c3-a871-629ff9bafa8f)
 
-
-
-
 ---
 
 ## Setup Instructions
@@ -57,5 +54,9 @@ Run the following command to install required dependencies:
 
 ```bash
 npm install @react-native-firebase/app @react-native-firebase/firestore
+
+
+[🎥 Watch Demo Video](https://raw.githubusercontent.com/manas-phal/AppDev_Lab/main/Exp15_FirestoreDatabase/todolist.mp4)
+
 
 
