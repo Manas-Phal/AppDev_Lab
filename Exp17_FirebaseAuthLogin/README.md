@@ -24,5 +24,7 @@ Implement user authentication using Firebase Auth with React Native.
 5. Displayed the logged-in user's name and email on the profile page.
 6. Implemented logout using `signOut()`.
 
-[🎥 Watch Demo Video](https://raw.githubusercontent.com/manas-phal/AppDev_Lab/main/Exp17_FirebaseAuthLoginauth.mp4)
+## 🎬 Demo Video
+[🎥 Watch Demo Video](https://raw.githubusercontent.com/manas-phal/AppDev_Lab/main/Exp17_FirebaseAuthLogin/auth.mp4)
+
 
