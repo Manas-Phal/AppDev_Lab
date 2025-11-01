@@ -1,8 +1,8 @@
-# Experiment 17 – Firebase Authentication in React Native
-
+# Experiment 17 – Authentication 
 ## Aim
 Implement user authentication using Firebase Auth with React Native.
 
+## Authentication in React Native
 ## Features Implemented
 - Firebase Email/Password Authentication
 - Name field stored and displayed using Firebase user profile
