@@ -29,7 +29,8 @@ Applications developed in this experiment:
 - ListView to display history with delete options.  
 
 ---
-[🎥 Watch demo video](https://github.com/manas-phal/Exp14_DataStorage/raw/main/calculator.mp4)
+[🎥 Watch demo video](https://raw.githubusercontent.com/manas-phal/Exp14_DataStorage/main/calculator.mp4)
+
 
 
 ### 2. To-Do List with SQLite Storage
