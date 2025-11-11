@@ -1,0 +1,63 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user has VIP role
+    // Note: This checks the user document - if it doesn't exist, returns false
+    function isVip() {
+      return request.auth != null && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'vip';
+    }
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Users collection - allow users to read their own data and update their role
+    match /users/{userId} {
+      // Allow users to read their own document
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow users to create their own document (on first signup)
+      allow create: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow users to update their own document (including role field)
+      // This works with both update() and set() with merge: true
+      allow update: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Tasks collection - stored under users/{userId}/tasks
+    match /users/{userId}/tasks/{taskId} {
+      // Allow anyone (authenticated or guest) to create and read tasks
+      // Note: Service layer will still prevent guests from creating
+      allow create: if true;
+      allow read: if true;
+      
+      // Only authenticated users can update and delete their own tasks
+      allow update: if isAuthenticated() && request.auth.uid == userId;
+      allow delete: if isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Analytics collection rules
+    match /analytics/{analyticsId} {
+      // Only VIP users can read analytics
+      allow read: if isVip();
+      
+      // Deny all other operations on analytics
+      allow create, update, delete: if false;
+    }
+    
+    // History collection - stored under users/{userId}/history
+    match /users/{userId}/history/{historyId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Deny all other collections and documents
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
