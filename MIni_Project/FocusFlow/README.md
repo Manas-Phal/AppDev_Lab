@@ -23,7 +23,7 @@ A responsive productivity tracker built using *Flutter, designed for both **Web*
 Tested using *Flutter Test* and manual validation for API calls, role permissions, and responsive UI layouts.
 
 ## APK Release Link
-
+![App APK](https://github.com/Manas-Phal/AppDev_Lab/blob/main/MIni_Project/Outputs/app-release.apk)
 
 ## 🔑 Test Credentials
 Use the following demo accounts to explore different roles in the app:
