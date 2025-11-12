@@ -31,7 +31,7 @@
 ![ss](vipprofile.jpg)
 ![ss](vipwelcome.jpg)
 ![ss](roleswitch.jpg)
-![ss](chat bot apikey.jpg)
+![ss](chat_bot_apikey.jpg)
 ![ss](summarycard.jpg)
 ![ss](newsapiscience.jpg)
 ![ss](newsapisports.jpg)
@@ -66,7 +66,8 @@
 ![ss](newsdetailentertain.jpg)
 
 
-
+# App Release Apk
+![App Apk](https://github.com/Manas-Phal/AppDev_Lab/blob/main/MIni_Project/Outputs/app-release.apk)
 
 # Test
 ![ss](fluttertest.jpg)
